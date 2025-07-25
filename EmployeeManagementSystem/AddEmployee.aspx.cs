@@ -38,7 +38,7 @@ namespace EmployeeManagementSystem
                     cmd.ExecuteNonQuery();
                 }
                 catch (Exception ex) {
-                    ClientScript.RegisterStartupScript(this.GetType(), "REFRESH", "<script>alert('You Cannot Change Username of employee, only they can change!!!')</script>");
+                    ClientScript.RegisterStartupScript(this.GetType(), "REFRESH", "<script>alert('You Cannot Change Username of employee, only they can change!!!')</script>" + ex);
                 }
             }
 

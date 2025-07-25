@@ -74,19 +74,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="about.jpeg" />
     <Content Include="AddEmployee.aspx" />
     <Content Include="admin.png" />
     <Content Include="AdminDashBoard.aspx" />
     <Content Include="AdminLogin.aspx" />
     <Content Include="contact.jpg" />
+    <Content Include="default.aspx" />
     <Content Include="employee.jpeg" />
     <Content Include="EmployeeDashBoard.aspx" />
     <Content Include="EmployeeLogin.aspx" />
     <Content Include="EmployeeManagement.aspx" />
     <Content Include="EmpSignUp.aspx" />
     <Content Include="forgotPassword.aspx" />
-    <Content Include="HomePage.html" />
     <Content Include="MarkAttendance.aspx" />
     <Content Include="MarkSalaryManagement.aspx" />
     <Content Include="navbar.css" />
@@ -190,8 +189,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="about.avif" />
-    <Content Include="dbsecrets.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

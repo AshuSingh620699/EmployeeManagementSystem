@@ -105,12 +105,12 @@ namespace EmployeeManagementSystem
                         cmd.ExecuteNonQuery();
                     }
                     catch (Exception ex) {
-                        ClientScript.RegisterStartupScript(this.GetType(), "REFRESH", "<script>alert('Canot delete Active Employee direclty!!!')</script>");
+                        ClientScript.RegisterStartupScript(this.GetType(), "REFRESH", "<script>alert('Canot delete Active Employee direclty!!!')</script>" + ex);
                     }
                 }
             }
             catch (Exception ex) {
-                ClientScript.RegisterStartupScript(this.GetType(),"REFRESH","<script>alert('Canot delete Active Employee direclty!!!')</script>");
+                ClientScript.RegisterStartupScript(this.GetType(),"REFRESH","<script>alert('Canot delete Active Employee direclty!!!')</script>" + ex);
             }
 
             // Reload data to reflect changes
