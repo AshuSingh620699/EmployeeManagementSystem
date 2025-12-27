@@ -88,6 +88,9 @@
     <Content Include="forgotPassword.aspx" />
     <Content Include="MarkAttendance.aspx" />
     <Content Include="MarkSalaryManagement.aspx" />
+    <Content Include="mycustompage.css" />
+    <Content Include="mycustompage.html" />
+    <Content Include="mycustompage.js" />
     <Content Include="navbar.css" />
     <Content Include="ReportsManagement.aspx" />
     <Content Include="Web.config" />
